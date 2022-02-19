@@ -1,5 +1,7 @@
 :root {
 	--color-primary: #0e345a;
+	--color-primary-300: #26486b;
+	--color-primary-200: #879aad;
 }
 
 ::-webkit-scrollbar {
@@ -15,6 +17,12 @@
 
 body {
 	scrollbar-gutter: stable;
+}
+
+.body-container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .body-container .nav-bar {
@@ -99,6 +107,11 @@ body {
 }
 .landing-page-text-cta:hover i {
 	color: var(--theme-text-white);
+}
+
+.main-container {
+	flex-grow: 1;
+	border: 1px solid red;
 }
 
 .main-header {
