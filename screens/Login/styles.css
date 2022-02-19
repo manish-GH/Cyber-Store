@@ -56,3 +56,31 @@
 .form-link {
 	font-size: var(--auth-page-font-size);
 }
+
+.form-extra-features {
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+.form-extra-features .btn-link {
+	flex-shrink: 1;
+	font-size: 1rem;
+	text-align: end;
+	border: none;
+}
+.form-extra-features .btn-link:hover {
+	border: none;
+}
+
+.form-extra-features label {
+	font-size: 1rem;
+	margin-left: 4px;
+}
+
+.form-extra-input {
+	min-width: 10rem;
+	display: flex;
+	align-items: center;
+}
