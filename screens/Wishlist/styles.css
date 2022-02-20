@@ -1,1 +1,17 @@
 @import url("../../styles.css");
+
+body {
+	background-color: var(--theme-bg-grey);
+}
+
+.wishlist-container {
+	padding: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.wishlist-container .card {
+	margin: 1.5rem;
+}
