@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://cyber-ui.netlify.app/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./styles.css" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cart</title>
+	</head>
+	<body>
+		<div class="body-container">
+			<nav class="nav-bar">
+				<div class="nav-bar-main">
+					<p onclick="scrollToTop()" class="nav-bar-logo">Cyber Store</p>
+				</div>
+				<div class="nav-bar-search">
+					<input type="text" class="input" placeholder="Search..." />
+				</div>
+				<div class="nav-bar-links">
+					<a class="nav-bar-link" href="#">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<a class="nav-bar-link" href="#">
+						<i class="far fa-heart"></i>
+					</a>
+					<a class="nav-bar-link" href="#">
+						<button class="btn btn-secondary">Logout</button>
+					</a>
+				</div>
+			</nav>
+			<main class="main-container"></main>
+			<!-- <footer class="footer-container"></footer> -->
+
+			<!-- REMOVE THIS LATER -->
+			<div class="bottom-nav">
+				<a href="../Login" class="btn btn-link">Login</a>
+				<a href="../Signup" class="btn btn-link">SignUp</a>
+				<a href="../../" class="btn btn-link">LandingPage</a>
+				<a href="../Product" class="btn btn-link">ProductPage</a>
+				<a href="./" class="btn btn-link">Cart</a>
+				<a href="../Wishlist" class="btn btn-link">Wishlist</a>
+			</div>
+		</div>
+		<script>
+			const scrollToTop = () => {
+				document.documentElement.scrollTop = 0;
+			};
+		</script>
+	</body>
+</html>
