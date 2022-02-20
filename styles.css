@@ -13,7 +13,7 @@
 ::-webkit-scrollbar-thumb {
 	border: 1px solid var(--color-border-scrollbar);
 	background-clip: padding-box;
-	border-radius: 9999px;
+	border-radius: 1rem;
 	background-color: var(--color-bg-scrollbar);
 }
 

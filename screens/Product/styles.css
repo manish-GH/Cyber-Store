@@ -9,8 +9,8 @@
 	grid-template-columns: 18rem 1fr;
 }
 
-.main-products {
-	min-width: 20rem;
+.main-sidebar {
+	padding-top: 1.5rem;
 }
 
 .sidebar-section-filter {
@@ -66,7 +66,6 @@
 }
 
 .main-products {
-	padding-top: 2rem;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
