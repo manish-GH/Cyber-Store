@@ -2,6 +2,8 @@
 	--color-primary: #0e345a;
 	--color-primary-300: #26486b;
 	--color-primary-200: #879aad;
+	--color-bg-scrollbar: #aaaaaa;
+	--color-border-scrollbar: rgba(0, 0, 0, 0);
 }
 
 ::-webkit-scrollbar {
@@ -9,14 +11,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-	border: 1px solid rgba(0, 0, 0, 0);
+	border: 1px solid var(--color-border-scrollbar);
 	background-clip: padding-box;
-	border-radius: 9999px;
-	background-color: #aaaaaa;
+	border-radius: 1rem;
+	background-color: var(--color-bg-scrollbar);
 }
 
 body {
 	scrollbar-gutter: stable;
+	background-color: var(--theme-bg-white);
 }
 
 .body-container {
